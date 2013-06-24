@@ -24,8 +24,6 @@ public class Tile {
 	public static Tile hedge = new hedgeSprite(Sprite.hedge);
 	public static Tile wood = new woodSprite(Sprite.wood);
 	public static Tile sand = new sandSprite(Sprite.sand);
-	public static Tile knight = new Knight(Sprite.knight);
-	public static Tile knight2 = new Knight(Sprite.knight2);
 	
 	public Tile(Sprite sprite){
 		this.sprite = sprite;

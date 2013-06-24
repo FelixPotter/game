@@ -83,7 +83,6 @@ public class Level {
 		if(tiles[x+y*width]==0xff683500)return Tile.wood;
 		if(tiles[x+y*width]==0xffE0D6CA)return Tile.sand;
 		if(tiles[x+y*width]==0xffFFFFFF)return Tile.grass;
-		if(tiles[x+y*width]==0xff6A5A57)return Tile.knight;
 		
 		return Tile.voidTile;
 	}

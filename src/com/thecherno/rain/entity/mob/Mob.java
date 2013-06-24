@@ -40,7 +40,7 @@ public abstract class Mob extends Entity{
 		projectiles.add(p);
 		level.add(p);
 	}
-	private boolean collision(int xa, int ya){
+	protected boolean collision(int xa, int ya){
 		boolean solid = false;
 		if(level.getTile((x+xa*16)/16,(y+ya*16)/16).soild())solid = true;
 		return solid;
